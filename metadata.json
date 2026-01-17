@@ -1,0 +1,7 @@
+{
+  "name": "Về Nhà An Toàn - Safe Home",
+  "description": "A comprehensive ride-hailing and driver-for-hire service application designed to ensure safe trips home, especially after social gatherings. Features user booking, driver tracking, and a partner dashboard.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

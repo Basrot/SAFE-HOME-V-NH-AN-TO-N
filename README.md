@@ -20,9 +20,7 @@ Tai nạn giao thông liên quan đến rượu bia là một trong những nguy
 - Áp dụng lý thuyết HCI cho **hệ thống an toàn quan trọng (Safety-Critical HCI)**
 
 Dự án được thực hiện trong khuôn khổ môn học **Tương tác Người – Máy (HCI)**, mang tính **nghiên cứu – học thuật – thực nghiệm UX/UI**.
-| Giao diện người dùng | Giao diện đặt |
-|:---:|:---:|
-| ![Giao diện](giaodienngdung.png) | ![Đặt xe](giaodiendat.png) |
+
 
 ---
 
@@ -38,7 +36,9 @@ Dự án được thực hiện trong khuôn khổ môn học **Tương tác Ng�
 
 ## 📸 Screenshots
 
-> Thêm ảnh demo giao diện tại đây để tăng điểm trình bày
+| Giao diện người dùng | Giao diện đặt |
+|:---:|:---:|
+| ![Giao diện](giaodienngdung.png) | ![Đặt xe](giaodiendat.png) |
 
 ---
 

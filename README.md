@@ -1,57 +1,63 @@
-🚦 SAFE HOME – VỀ NHÀ AN TOÀN
-Ứng dụng Web HCI cho Hệ thống An toàn Quan trọng (Safety-Critical System)
-A Safety-Critical Human–Computer Interaction Web Application
-🇻🇳 GIỚI THIỆU DỰ ÁN
+🚦 Safe Home – Về Nhà An Toàn
+Safety-Critical Human–Computer Interaction Web Application
 
-Safe Home – Về nhà an toàn là một ứng dụng web được phát triển nhằm hỗ trợ người dùng di chuyển về nhà an toàn, đặc biệt trong các tình huống đã sử dụng rượu bia hoặc không đủ khả năng tự lái xe.
 
-Dự án được xây dựng trong khuôn khổ môn học Tương tác Người – Máy (Human–Computer Interaction – HCI), tập trung nghiên cứu cách thiết kế giao diện và tương tác cho các hệ thống an toàn quan trọng (Safety-Critical Systems).
 
-Ứng dụng không chỉ giải quyết bài toán chức năng, mà còn đặt trọng tâm vào:
 
-Trạng thái tâm lý người dùng
 
-Hành vi trong tình huống căng thẳng
 
-Giảm tải nhận thức khi ra quyết định
 
-🇺🇸 PROJECT INTRODUCTION
 
-Safe Home is a web-based application designed to help users return home safely, especially in situations where users have consumed alcohol or are not in a suitable condition to drive.
+Safe Home là một ứng dụng web định hướng Safety-Critical System, được thiết kế theo các nguyên lý Human–Computer Interaction (HCI) nhằm hỗ trợ người dùng về nhà an toàn trong các tình huống có nguy cơ cao, đặc biệt khi đã sử dụng rượu bia và không đủ khả năng tự lái xe.
 
-This project is developed as part of the Human–Computer Interaction (HCI) course, focusing on the design and evaluation of Safety-Critical Systems.
+📖 Giới thiệu Dự án | Project Overview
 
-Beyond functionality, Safe Home emphasizes:
+Tai nạn giao thông liên quan đến rượu bia là một trong những nguyên nhân gây tử vong hàng đầu trên thế giới và tại Việt Nam. Trong nhiều trường hợp, người dùng ý thức được rủi ro nhưng không có giải pháp tiện lợi, nhanh chóng và dễ sử dụng để lựa chọn phương án an toàn hơn.
 
-User mental state
+Safe Home được xây dựng nhằm:
 
-Stressful decision-making scenarios
+Giảm rào cản thao tác khi người dùng đang căng thẳng
 
-Cognitive load reduction through interaction design
+Hỗ trợ ra quyết định an toàn trong thời gian ngắn
 
-🎯 MỤC TIÊU | OBJECTIVES
-🇻🇳 Mục tiêu
+Áp dụng lý thuyết HCI cho hệ thống an toàn quan trọng (Safety-Critical HCI)
 
-Giảm thiểu tai nạn giao thông liên quan đến rượu bia
+📌 Dự án được thực hiện trong khuôn khổ môn học Tương tác Người – Máy (HCI), mang tính nghiên cứu – học thuật – thực nghiệm UX/UI.
 
-Hỗ trợ đặt xe / thuê người lái xe hộ
+🎯 Key Highlights (Điểm nổi bật)
 
-Giao diện đơn giản, dễ sử dụng trong tình huống khẩn cấp
+🔴 Safety-Critical System: Thiết kế cho tình huống rủi ro cao
 
-Áp dụng nguyên lý HCI vào thiết kế hệ thống an toàn
+🧠 User-Centered Design: Tập trung vào tâm lý người dùng khi căng thẳng
 
-🇺🇸 Objectives
+⚡ Low Cognitive Load: Giảm số bước, giảm suy nghĩ
 
-Reduce alcohol-related traffic accidents
+🌐 Local Network Deployment: Phù hợp demo, triển khai nội bộ
 
-Support ride booking or designated driver services
+📚 HCI Design Rationale & Trade-offs được phân tích rõ ràng
 
-Provide a simple and stress-friendly user interface
+📸 Giao diện & Demo (Screenshots)
 
-Apply HCI principles in safety-critical system design
+(Thêm ảnh demo giao diện tại đây để tăng tính trực quan và điểm trình bày)
+
+Trang chủ	Đặt xe
+Home UI	Booking UI
+Trạng thái khẩn cấp	Xác nhận
+Emergency Mode	Confirmation
+🚀 Chức năng Chính | Core Features
+
+🚗 Đặt xe về nhà an toàn
+
+👤 Thuê người lái xe hộ
+
+🧭 Giao diện tối giản cho tình huống căng thẳng
+
+⚠️ Tối ưu thao tác cho tình huống khẩn cấp
+
+🔒 Hạn chế thao tác sai (Error Prevention)
 
 🧠 HCI FRAMEWORK & DESIGN RATIONALE
-🇻🇳 Khung HCI áp dụng
+Khung HCI áp dụng
 
 User-Centered Design (UCD)
 
@@ -61,25 +67,18 @@ Safety-First Interaction
 
 Safety-Critical HCI
 
-🇺🇸 Applied HCI Frameworks
+Design Trade-offs
 
-User-Centered Design (UCD)
+Ít tính năng hơn để đảm bảo dễ sử dụng
 
-Context-Aware Interaction
+Tốc độ thao tác > Tính đầy đủ
 
-Safety-First Interaction
+Cân bằng giữa AI hỗ trợ và quyền riêng tư người dùng
 
-Safety-Critical HCI
+📌 Keywords:
+Safety-critical HCI · Design Rationale · Cognitive Load · UX under stress
 
-🎯 Design Trade-offs | Đánh đổi thiết kế
-
-Ít tính năng hơn để đảm bảo dễ dùng khi căng thẳng
-
-Cân bằng giữa AI chủ động và quyền riêng tư người dùng
-
-Giảm thao tác để tránh sai sót trong tình huống nguy hiểm
-
-🛠️ CÔNG NGHỆ | TECHNOLOGIES
+🛠 Công nghệ Sử dụng | Tech Stack
 
 Frontend: ReactJS
 
@@ -89,72 +88,63 @@ Package Manager: npm
 
 Deployment: Localhost / Local Network
 
-📂 CẤU TRÚC DỰ ÁN | PROJECT STRUCTURE
+🏗 Kiến trúc Ứng dụng | Application Architecture
 safe-home/
 │
-├── src/              # Source code
-├── public/           # Static files
-├── package.json      # Project configuration
-├── README.md         # Documentation
-└── ...
+├── src/
+│   ├── components/      # UI Components
+│   ├── pages/           # Main Screens
+│   ├── services/        # Logic & API handling
+│   └── assets/          # Images & icons
+│
+├── public/
+├── package.json
+└── README.md
 
-🚀 HƯỚNG DẪN CÀI ĐẶT & CHẠY | INSTALLATION & RUN
-1️⃣ Yêu cầu | Requirements
+⚙️ Cài đặt & Hướng dẫn chạy | Installation & Run
+1️⃣ Yêu cầu
 
-Node.js (LTS recommended)
-
-Kiểm tra:
+Node.js (LTS)
 
 node -v
 npm -v
 
-2️⃣ Cài thư viện | Install dependencies
+2️⃣ Cài thư viện
 npm install
 
-3️⃣ Chạy ứng dụng | Run the app
+3️⃣ Chạy ứng dụng
 npm run dev
 
-4️⃣ Truy cập | Access
+4️⃣ Truy cập
 
 Local:
 
 http://localhost:3000
 
 
-Network (same WiFi):
+Network (cùng WiFi):
 
 http://192.168.xxx.xxx:3000
 
-🌐 CHẠY TRONG MẠNG NỘI BỘ | LOCAL NETWORK MODE
-🇻🇳
+🌐 Chạy trong mạng nội bộ | Local Network Mode
 
-Ứng dụng có thể chạy trong mạng nội bộ, chỉ cho phép các thiết bị cùng WiFi truy cập, phù hợp cho:
+Ứng dụng có thể triển khai chỉ cho phép truy cập trong cùng mạng WiFi, phù hợp:
 
-Demo tại lớp
+Demo môn học
 
-Nghiên cứu HCI
+Môi trường nghiên cứu
 
 Triển khai tại quán/khu vực cụ thể
 
-🇺🇸
-
-The application can be deployed in a local network environment, allowing access only for devices connected to the same WiFi, suitable for:
-
-Classroom demonstrations
-
-HCI research
-
-Controlled deployment environments
-
-🎓 MỤC ĐÍCH HỌC THUẬT | ACADEMIC PURPOSE
+🎓 Mục đích Học thuật | Academic Purpose
 
 Áp dụng lý thuyết Human–Computer Interaction
 
-Phân tích hành vi người dùng trong tình huống rủi ro
+Phân tích hành vi người dùng trong tình huống nguy hiểm
 
-Thiết kế giao diện cho Safety-Critical Systems
+Thiết kế hệ thống Safety-Critical System
 
-👥 NHÓM THỰC HIỆN | TEAM MEMBERS
+👥 Nhóm Thực Hiện | Team Members
 
 Nguyễn Gia Nam – Team Leader
 
@@ -170,12 +160,16 @@ Ngô Mạnh Hiếu
 
 Vũ Bình An
 
-📌 GHI CHÚ | NOTES
+🔮 Định hướng Phát triển | Future Work
 
-Dự án phục vụ mục đích học tập & nghiên cứu
+Tích hợp AI nhận diện trạng thái người dùng
 
-Một số chức năng nâng cao đang được đề xuất cho phát triển tương lai
+Tự động đề xuất phương án an toàn
 
-📄 LICENSE
+Mở rộng sang Mobile App
+
+Kết nối dịch vụ giao thông thực tế
+
+📄 License
 
 This project is developed for educational and research purposes only.
